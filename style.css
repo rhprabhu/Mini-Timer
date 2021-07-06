@@ -1,0 +1,39 @@
+*{
+ font-family:'Jura', 'Arial';
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(241, 241, 141);
+}
+
+
+.container{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.container h1{
+    color: #fff;
+}
+
+#title{
+    font-size: 0.8rem;
+}
+
+#strtbtn, #stpbtn, #resetbtn{
+cursor: pointer;
+}
+
+#strtbtn, #stpbtn, #resetbtn:hover{
+    background: rgb(231, 168, 123);
+    }
